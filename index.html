@@ -7,7 +7,7 @@ A <!DOCTYPE html> document type definition, declaração define que este documen
 
 <!-- O HTML é a tag raiz da estrutura html, todo o conteúdo deve ser criado dentro dele.
 -->
-<html>
+<html lang="pt-br">
   <!-- 
 		<head> Elemento contém meta informações sobre a página HTML
 	-->
@@ -18,6 +18,7 @@ A <!DOCTYPE html> document type definition, declaração define que este documen
 
     <link rel="stylesheet" href="./css/estilo.css" />
   </head>
+
   <body>
     <div id="container">
       <header class="cabecalho">
@@ -36,36 +37,42 @@ A <!DOCTYPE html> document type definition, declaração define que este documen
 
       <section class="conteudo">
         <div>
-          <h2>help</h2>
+          <h2 class="tit-sec">HELP</h2>
           <p>
-            Help - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Ducimus, voluptas vitae enim, facere amet dicta natus deleniti illum
-            atque iure consequuntur laboriosam fuga nostrum eius autem, iste
-            doloremque cumque rerum iusto nisi. Voluptatibus cumque optio
-            doloribus molestias fuga quos hic labore accusamus numquam at sed
-            minus accusantium minima, voluptate earum!
+            Help - Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+            error cumque quas dolorem quaerat vero! Quaerat magnam pariatur, aut
+            eius perspiciatis aperiam delectus, molestias beatae accusantium
+            molestiae ratione ipsum earum necessitatibus cupiditate fugit autem
+            libero enim tempora. Voluptatem vero aliquid saepe soluta
+            perferendis facilis assumenda, eligendi dolor maxime quae nobis esse
+            explicabo corporis obcaecati quisquam rem accusantium ex fuga itaque
+            neque optio tempora necessitatibus. Mollitia modi sed eum veritatis
+            id rem commodi accusantium soluta repudiandae, dolorum,
+            necessitatibus laudantium molestiae quae itaque nesciunt quidem
+            nobis ducimus possimus harum quisquam! Perferendis nisi corrupti
+            quas nam cumque minima. Similique commodi molestias voluptate.
+            Magnam.
           </p>
           <a href="./paginas/help.html">Mais...</a>
         </div>
 
         <div>
-          <h2>ABOUT</h2>
+          <h2 class="tit-sec">ABOUT</h2>
           <p>
-            About - Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Molestiae minima, officiis quaerat dolores deleniti rem unde quas,
-            eos suscipit quam incidunt quis eligendi ducimus? Voluptatem
-            molestias rerum ad sit rem saepe eveniet eaque vitae exercitationem?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            eaque expedita adipisci placeat omnis numquam illum sunt dolore quo
+            velit.
           </p>
           <a href="./paginas/about.html">Mais...</a>
         </div>
 
         <div id="contact">
-          <h2>CONTACT</h2>
+          <h2 class="tit-sec">CONTACT</h2>
           <form>
             <fieldset>
               <legend>Customer Data</legend>
               <div>
-                <label for="idm">Nomes:</label>
+                <label for="idNm">Nome:</label>
                 <input
                   type="text"
                   name="txtNm"
@@ -90,8 +97,8 @@ A <!DOCTYPE html> document type definition, declaração define que este documen
         </div>
       </section>
 
-      <footer class="rodape">
-        <nav>
+      <footer class="cabecalho">
+        <nav class="tit-sec">
           <ul>
             <li>
               <a href="https://www2.fiap.com.br/" target="_blank"> FIAP </a>
@@ -107,5 +114,7 @@ A <!DOCTYPE html> document type definition, declaração define que este documen
         <p>Todos os direitos reservados <small>2024 - &copy;</small></p>
       </footer>
     </div>
+
+    <div>Esta div está fora dos domínios do container...</div>
   </body>
 </html>
