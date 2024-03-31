@@ -1,3 +1,7 @@
 header {
-    background-color: rgb(57, 115, 241);
+    background-color: rgb(8, 78, 230);
+}
+
+h1, h2 {
+    font-family: serif;
 }
