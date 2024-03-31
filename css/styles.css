@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(8, 78, 230);
+    background-color: rgb(125, 164, 248);
 }
 
 h1, h2 {
@@ -28,7 +28,7 @@ p {
 }
 
 form button {
-    background-color: blue;
+    background-color: rgb(49, 49, 240);
     color: white;
 }
 
